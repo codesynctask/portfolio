@@ -1,0 +1,45 @@
+@font-face {
+    font-family: hussar-bold;
+    src: url(./FONTS/Hussar/HussarBold.otf);
+}
+@font-face {
+    font-family: ma-shan-zheng;
+    src: url(./FONTS/ma-shan-zheng/MaShanZheng-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    background-color: rgb(255, 254, 240);
+}
+
+html.has-scroll-smooth {
+  overflow: hidden;
+}
+
+[data-scroll-container] {
+  min-height: 100vh;
+}
+
+section{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border: 2px solid;
+}
+
+main{
+    height: 100vh;
+    width: 100%;
+}
+

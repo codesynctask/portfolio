@@ -15,6 +15,7 @@ header{
 
 header img{
     width: 7vw;
+    min-width: 70px;
 }
 
 header ul{

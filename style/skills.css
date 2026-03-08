@@ -1,0 +1,45 @@
+#skills>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 100%;
+    padding: 20px;
+
+
+}
+
+#skills > div i {
+    font-size: 3rem;
+    margin: 10px;
+    cursor: pointer;
+    position: relative;
+    transition: color 0.3s ease;
+
+}
+
+
+/* Tooltip below icon using ::after */
+#skills > div i::after {
+    font-family: 'Poppins', sans-serif;
+
+    content: attr(data-name); 
+    display: block;
+    color: var(--color);
+    font-size: 0.9rem;
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 3px 8px;
+    border-radius: 5px;
+    opacity: 0; 
+    white-space: nowrap;
+    transition: opacity 0.3s ease;
+}
+
+#skills > div i:hover::after {
+    opacity: 1;
+}

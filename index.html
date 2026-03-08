@@ -10,50 +10,99 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./style/nav.css">
     <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/skills.css">
 </head>
 
 <body>
 
+    <div class="loading-wrapper">
+        <div class="loader"></div>
+    </div>
+
+    <header>
+        <a href="#hero"><img src="./LOGO/codeyntask-logo.png" alt=""></a>
+
+        <nav>
+            <ul>
+                <li><a href="#hero"><i class="ri-user-3-fill"></i> Home</a></li>
+                <li><a href="#skills"><i class="ri-tools-fill"></i> skills</a></li>
+                <li><a href="#projects"><i class="ri-pantone-fill"></i> Projects</a></li>
+                <li><a href="#contact"><i class="ri-phone-fill"></i> Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
     <div id="html-wrapper" data-scroll-container>
         <section id="hero">
-            <header>
-                <a href="#hero"><img src="./LOGO/codeyntask-logo.png" alt=""></a>
-
-                <nav>
-                    <ul>
-                        <li><a href="#about-me"><i class="ri-user-3-fill"></i> About Me</a></li>
-                        <li><a href="#projects"><i class="ri-pantone-fill"></i> Projects</a></li>
-                        <li><a href="#contact"><i class="ri-phone-fill"></i> Contact</a></li>
-                    </ul>
-                </nav>
-            </header>
-            
             <div class="hero-content">
-                
                 <h1>DEEPAK SHARMA</h1>
                 <!-- <h1>CODE-SYNCTASK</h1> -->
                 <h4>Web Developer | Trainer | Freelancer</h4>
-                <p>A curious learner with a knack for teaching — I bring clarity to tech concepts and enjoy building projects that make learning meaningful.</p>
+                <p>A curious learner with a knack for teaching — I bring clarity to tech concepts and enjoy building
+                    projects that make learning meaningful.</p>
                 <div class="cta-group">
                     <button><i class="ri-code-s-slash-line"></i> Hire Me</button>
                     <button><i class="ri-download-line"></i> Download CV</button>
                 </div>
             </div>
-
-
-
         </section>
 
-        <section id="about-me">about</section>
+       <section id="skills">
+    <h1>Skills & Tools</h1>
+    <br>
+
+    <div class="frontend">
+        <h2>Frontend</h2>
+        <div class="skills-logo-wrapper">
+            <i style="--color:#E34F26" data-name="HTML" class="ri-html5-fill"></i>
+            <i style="--color:#1572B6" data-name="CSS" class="ri-css3-fill"></i>
+            <i style="--color:#38B2AC" data-name="Tailwind" class="ri-tailwind-css-fill"></i>
+            <i style="--color:#7952B3" data-name="Bootstrap" class="ri-bootstrap-fill"></i>
+            <i style="--color:#F7DF1E" data-name="JavaScript" class="ri-javascript-fill"></i>
+            <i style="--color:#DD0031" data-name="Angular" class="ri-angularjs-fill"></i>
+            <i style="--color:#6C63FF" data-name="Responsive Layout" class="ri-layout-2-fill"></i>
+        </div>
+    </div>
+
+    <div class="Backend">
+        <h2>Backend & Programming</h2>
+        <div class="skills-logo-wrapper">
+            <i style="--color:#339933" data-name="Node.js" class="ri-nodejs-line"></i>
+            <i style="--color:#CB3837" data-name="NPM" class="ri-npmjs-fill"></i>
+            <i style="--color:#777BB4" data-name="PHP" class="ri-php-fill"></i>
+            <i style="--color:#4285F4" data-name="OAuth" class="ri-google-fill"></i>
+            <i style="--color:#F2994A" data-name="e-Wallet" class="ri-wallet-3-fill"></i>
+            <i style="--color:#0F52BA" data-name="Auth" class="ri-shield-keyhole-fill"></i>
+        </div>
+    </div>
+
+    <div class="Database">
+        <h2>Database</h2>
+        <div class="skills-logo-wrapper">
+            <i style="--color:#4479A1" data-name="Database" class="ri-database-2-fill"></i>
+        </div>
+    </div>
+
+    <div class="Tools">
+        <h2>Software & Tools</h2>
+        <div class="skills-logo-wrapper">
+            <i style="--color:#424242" data-name="GitHub" class="ri-github-fill"></i>
+            <i style="--color:#424242" data-name="Terminal" class="ri-terminal-box-fill"></i>
+            <i style="--color:#424242" data-name="Notion" class="ri-notion-fill"></i>
+        </div>
+    </div>
+</section>
+
+
         <section id="projects">projects</section>
         <section id="contact">contact</section>
 
     </div>
 
 
-    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
     <script src="script.js"></script>
 </body>
 

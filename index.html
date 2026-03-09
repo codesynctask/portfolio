@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Code-synctask</title>
+    <link rel="shortcut icon" href="./LOGO/codesynctask-favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./style/nav.css">
     <link rel="stylesheet" href="./style/main.css">
     <link rel="stylesheet" href="./style/skills.css">
+    <link rel="stylesheet" href="./style/scroll-video.css">
 </head>
 
 <body>
@@ -47,50 +49,60 @@
             </div>
         </section>
 
-       <section id="skills">
-    <h1>Skills & Tools</h1>
-    <br>
+        <section id="skills">
+            <h1 class="section-heading">Skills & Tools</h1>
+            <br>
 
-    <div class="frontend">
-        <h2>Frontend</h2>
-        <div class="skills-logo-wrapper">
-            <i style="--color:#E34F26" data-name="HTML" class="ri-html5-fill"></i>
-            <i style="--color:#1572B6" data-name="CSS" class="ri-css3-fill"></i>
-            <i style="--color:#38B2AC" data-name="Tailwind" class="ri-tailwind-css-fill"></i>
-            <i style="--color:#7952B3" data-name="Bootstrap" class="ri-bootstrap-fill"></i>
-            <i style="--color:#F7DF1E" data-name="JavaScript" class="ri-javascript-fill"></i>
-            <i style="--color:#DD0031" data-name="Angular" class="ri-angularjs-fill"></i>
-            <i style="--color:#6C63FF" data-name="Responsive Layout" class="ri-layout-2-fill"></i>
-        </div>
+            <div class="frontend">
+                <h2>Frontend</h2>
+                <div class="skills-logo-wrapper">
+                    <i style="--color:#E34F26" data-name="HTML" class="ri-html5-fill"></i>
+                    <i style="--color:#1572B6" data-name="CSS" class="ri-css3-fill"></i>
+                    <i style="--color:#38B2AC" data-name="Tailwind" class="ri-tailwind-css-fill"></i>
+                    <i style="--color:#7952B3" data-name="Bootstrap" class="ri-bootstrap-fill"></i>
+                    <i style="--color:#F7DF1E" data-name="JavaScript" class="ri-javascript-fill"></i>
+                    <i style="--color:#DD0031" data-name="Angular" class="ri-angularjs-fill"></i>
+                    <i style="--color:#6C63FF" data-name="Responsive Layout" class="ri-layout-2-fill"></i>
+                </div>
+            </div>
+
+            <div class="Backend">
+                <h2>Backend & Programming</h2>
+                <div class="skills-logo-wrapper">
+                    <i style="--color:#339933" data-name="Node.js" class="ri-nodejs-line"></i>
+                    <i style="--color:#CB3837" data-name="NPM" class="ri-npmjs-fill"></i>
+                    <i style="--color:#777BB4" data-name="PHP" class="ri-php-fill"></i>
+                    <i style="--color:#4285F4" data-name="OAuth" class="ri-google-fill"></i>
+                    <i style="--color:#F2994A" data-name="e-Wallet" class="ri-wallet-3-fill"></i>
+                    <i style="--color:#0F52BA" data-name="Auth" class="ri-shield-keyhole-fill"></i>
+                </div>
+            </div>
+
+            <div class="Database">
+                <h2>Database</h2>
+                <div class="skills-logo-wrapper">
+                    <i style="--color:#4479A1" data-name="Database" class="ri-database-2-fill"></i>
+                </div>
+            </div>
+
+            <div class="Tools">
+                <h2>Software & Tools</h2>
+                <div class="skills-logo-wrapper">
+                    <i style="--color:#424242" data-name="GitHub" class="ri-github-fill"></i>
+                    <i style="--color:#424242" data-name="Terminal" class="ri-terminal-box-fill"></i>
+                    <i style="--color:#424242" data-name="Notion" class="ri-notion-fill"></i>
+                </div>
+            </div>
+        </section>
+
+       <section id="scroll-video">
+    <div class="content">
+        <h1>Projects</h1>
     </div>
 
-    <div class="Backend">
-        <h2>Backend & Programming</h2>
-        <div class="skills-logo-wrapper">
-            <i style="--color:#339933" data-name="Node.js" class="ri-nodejs-line"></i>
-            <i style="--color:#CB3837" data-name="NPM" class="ri-npmjs-fill"></i>
-            <i style="--color:#777BB4" data-name="PHP" class="ri-php-fill"></i>
-            <i style="--color:#4285F4" data-name="OAuth" class="ri-google-fill"></i>
-            <i style="--color:#F2994A" data-name="e-Wallet" class="ri-wallet-3-fill"></i>
-            <i style="--color:#0F52BA" data-name="Auth" class="ri-shield-keyhole-fill"></i>
-        </div>
-    </div>
-
-    <div class="Database">
-        <h2>Database</h2>
-        <div class="skills-logo-wrapper">
-            <i style="--color:#4479A1" data-name="Database" class="ri-database-2-fill"></i>
-        </div>
-    </div>
-
-    <div class="Tools">
-        <h2>Software & Tools</h2>
-        <div class="skills-logo-wrapper">
-            <i style="--color:#424242" data-name="GitHub" class="ri-github-fill"></i>
-            <i style="--color:#424242" data-name="Terminal" class="ri-terminal-box-fill"></i>
-            <i style="--color:#424242" data-name="Notion" class="ri-notion-fill"></i>
-        </div>
-    </div>
+    <video id="project-video" autoplay muted playsinline preload="auto">
+        <source src="video/reveal-project-text.mp4" type="video/mp4">
+    </video>
 </section>
 
 

@@ -1,0 +1,36 @@
+#scroll-video {
+  height: fit-content;
+  cursor: none;
+
+  & video {
+    width: 95vw;
+    background-color: white;
+    object-fit: cover;
+  }
+}
+
+#project-video {
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+#scroll-video .content {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  z-index: 1;
+  width: fit-content;
+  font-size: clamp(5rem, 9vw, 9rem);
+  /* font-size: 40px; */
+  font-family: hussar, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ffffffc9;
+  --l: #0000 45%, #000 0 55%, #0000 0;
+  --g: 0/300% 100% no-repeat text;
+  background:
+    linear-gradient(-60deg, var(--l)) var(--g),
+    linear-gradient(60deg, var(--l)) var(--g);
+  animation: l7 4s linear infinite;
+}

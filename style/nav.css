@@ -9,7 +9,7 @@ header{
     align-items: center;
     padding: 10px 5vw;
     z-index: 1000;
-    /* background-color: red; */
+    backdrop-filter: blur(10px); 
 }
 
 

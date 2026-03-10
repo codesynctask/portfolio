@@ -1,6 +1,7 @@
 #scroll-video {
   height: fit-content;
   cursor: none;
+  overflow: hidden;
 
   & video {
     width: 95vw;

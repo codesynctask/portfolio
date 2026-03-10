@@ -1,0 +1,40 @@
+footer{
+    height: 40vh;
+    overflow: hidden;
+    margin-top: -10vh;
+    position: relative;
+}
+
+.semi-circle {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+
+    flex-grow: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    min-height: fit-content;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    /* border-radius: 50%; */
+    height: 180vw;
+    width: 180vw;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+
+    img{
+        width: 15vw;
+        border-radius: 50%;
+    }
+
+    & p{
+        font-size: 1rem;
+        margin-top: -50px;
+        margin-bottom: 20px;
+    }
+}
+

@@ -1,17 +1,21 @@
 footer{
     height: 40vh;
     overflow: hidden;
-    margin-top: -10vh;
+    /* margin-top: -10vh; */
     position: relative;
+    padding: 0;
 }
 
 .semi-circle {
+    overflow: hidden;
     position: absolute;
     left: 50%;
     top: 0;
     transform: translateX(-50%);
 
     flex-grow: 0;
+    border: 2px solid rgb(0, 0, 0);
+
     background-color: black;
     color: white;
     text-align: center;
@@ -27,14 +31,20 @@ footer{
     border-top-right-radius: 50%;
 
     img{
-        width: 15vw;
+        width: 20vw;
         border-radius: 50%;
+        position: relative;
+        margin-top: -4vw;
+    border: 2px solid rgb(0, 0, 0);
+
     }
 
     & p{
         font-size: 1rem;
-        margin-top: -50px;
+        margin-top: -7vw;
         margin-bottom: 20px;
+        position: relative;
+        z-index: 2;
     }
 }
 

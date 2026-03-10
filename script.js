@@ -88,8 +88,23 @@ gsap.to(".content h1", {
 
   scrollTrigger: {
     trigger: "section .content h1",
-    scroller: "#html-wrapper",   // since you are using locomotive
+    scroller: "#html-wrapper",   
     start: "top 100%",
+    end: "top 20%",
+    scrub: true,
+  }
+});
+
+gsap.to("footer .semi-circle", {
+  delay:8,
+  scale: 1.3,
+  duration: 2,
+  ease: "power2.out",
+
+  scrollTrigger: {
+    trigger: "footer .semi-circle",
+    scroller: "#html-wrapper",  
+    start: "top 40%",
     end: "top 20%",
     scrub: true,
   }

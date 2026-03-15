@@ -8,7 +8,7 @@ window.addEventListener("load", () => {
     smooth: true,
   });
 
-  document.querySelectorAll("nav a").forEach(link => {
+  document.querySelectorAll("a").forEach(link => {
     link.addEventListener("click", function (e) {
       e.preventDefault();
 

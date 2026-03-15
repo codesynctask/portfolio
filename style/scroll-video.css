@@ -35,3 +35,14 @@
     linear-gradient(60deg, var(--l)) var(--g);
   animation: l7 4s linear infinite;
 }
+
+#scroll-video h1 {
+  font-size: clamp(2rem, 10vw, 10em);
+    font-weight: 800;
+    line-height: clamp(4rem, 11vw, 11rem);
+    color: var(--primary-color);
+    text-transform: uppercase;
+    text-align: center;
+    transform: scale(0);
+  
+}

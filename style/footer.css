@@ -1,22 +1,20 @@
 footer{
-    height: 40vh;
+    height: clamp(30vh, 50vw, 50vh);
     overflow: hidden;
     /* margin-top: -10vh; */
     position: relative;
     padding: 0;
-    margin-top: 5vh;
 }
 
 .semi-circle {
+    padding-top: clamp(8vh , 5vw , 10vw);
     overflow: hidden;
     position: absolute;
     left: 50%;
     top: 0;
     transform: translateX(-50%);
-
     flex-grow: 0;
     border: 2px solid rgb(0, 0, 0);
-
     background-color: black;
     color: white;
     text-align: center;
@@ -33,19 +31,20 @@ footer{
 
     img{
         width: 20vw;
+        min-width: 130px;
         border-radius: 50%;
         position: relative;
-        margin-top: -4vw;
-    border: 2px solid rgb(0, 0, 0);
-
-    }
-
-    & p{
-        font-size: 1rem;
-        margin-top: -7vw;
-        margin-bottom: 20px;
+        margin-top: -8vw;
+        border: 2px solid rgb(0, 0, 0);
         position: relative;
-        z-index: 2;
+
     }
+
+    p{
+        margin-top: -6vw;
+        position: relative;
+        z-index: 99;
+    }
+
 }
 

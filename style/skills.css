@@ -7,11 +7,18 @@
     width: 100%;
     padding: 20px;
 
+    .skills-logo-wrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
 
 }
 
 #skills > div i {
-    font-size: 3rem;
+    font-size: clamp(1.5em, 5vw, 3em);
     margin: 10px;
     cursor: pointer;
     position: relative;

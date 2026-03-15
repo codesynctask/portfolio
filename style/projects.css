@@ -1,11 +1,11 @@
 #projects{
-    border: 2px solid black;
     height: 100vh;
     display: flex;  
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
-    margin-top: -20vh;
+    font-size: large;
+    color: rgb(47, 46, 46);
 }
 
 

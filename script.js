@@ -10,9 +10,12 @@ window.addEventListener("load", () => {
 
   document.querySelectorAll("a").forEach(link => {
     link.addEventListener("click", function (e) {
+      if(this.getAttribute("class")=="social-links"){
+        return
+      }
       e.preventDefault();
-
       const target = document.querySelector(this.getAttribute("href"));
+      console.log(target)
 
       locoScroll.scrollTo(target, {
         offset: -window.innerHeight * 0.15

@@ -1,0 +1,14 @@
+#projects{
+    border: 2px solid black;
+    height: 100vh;
+    display: flex;  
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    margin-top: -20vh;
+}
+
+
+/* #hero, #skills, #contact{
+    display: none;
+} */

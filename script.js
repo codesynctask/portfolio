@@ -60,9 +60,8 @@ window.addEventListener("load", () => {
 
   // hero section
   gsap.to("#hero", {
-    y: -100,
-    scale: 0.5,
-    opacity: 0,
+        y: -100,
+    scale: 0.7,
 
     scrollTrigger: {
       trigger: "#hero",
